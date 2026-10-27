@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://부산강아지파양.daumzine.co.kr/sitemap.xml
