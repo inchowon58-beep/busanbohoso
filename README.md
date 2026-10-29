@@ -1,6 +1,8 @@
 # 부산강아지파양 · 포켓몽보호소
 
-정적 랜딩 사이트 (`site/`). 운영 도메인: **https://부산강아지파양.daumzine.co.kr/**
+정적 랜딩 사이트 (`site/`). 운영 도메인:
+- **https://부산강아지파양.daumzine.co.kr/** → `site/index.html`
+- **https://부산유기견센터.daumzine.co.kr/** → `site/busan-yugigyug/index.html` (호스트별 rewrite + middleware)
 
 ## 로컬 미리보기
 
