@@ -7,6 +7,7 @@ credentials.json
 Thumbs.db
 *.log
 .cursor/
+node_modules/
 .vercel/
 public/
 site/.vercel/

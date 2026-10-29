@@ -5,47 +5,28 @@
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "trailingSlash": false,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/robots.txt",
+      "src": "/robots.txt",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/robots.txt"
+      "dest": "/busan-yugigyug/robots.txt"
     },
     {
-      "source": "/sitemap.xml",
+      "src": "/sitemap.xml",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/sitemap.xml"
+      "dest": "/busan-yugigyug/sitemap.xml"
     },
     {
-      "source": "/",
+      "src": "/",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/index.html"
+      "dest": "/busan-yugigyug/index.html"
     },
     {
-      "source": "/index.html",
+      "src": "/index.html",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/index.html"
+      "dest": "/busan-yugigyug/index.html"
     },
-    {
-      "source": "/robots.txt",
-      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/sitemap.xml"
-    },
-    {
-      "source": "/",
-      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/index.html"
-    },
-    {
-      "source": "/index.html",
-      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
-      "destination": "/busan-yugigyug/index.html"
-    }
+    { "handle": "filesystem" }
   ],
   "headers": [
     {
