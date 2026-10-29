@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://부산고양이보호소.daumzine.co.kr/sitemap.xml

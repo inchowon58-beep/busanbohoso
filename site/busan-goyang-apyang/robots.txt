@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://부산고양이파양.daumzine.co.kr/sitemap.xml

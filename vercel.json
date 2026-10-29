@@ -8,6 +8,66 @@
   "routes": [
     {
       "src": "/robots.txt",
+      "has": [{ "type": "host", "value": "xn--299ay81a7laj9hr5am7nvsdby4b.daumzine.co.kr" }],
+      "dest": "/busan-goyang-bohoso/robots.txt"
+    },
+    {
+      "src": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "xn--299ay81a7laj9hr5am7nvsdby4b.daumzine.co.kr" }],
+      "dest": "/busan-goyang-bohoso/sitemap.xml"
+    },
+    {
+      "src": "/",
+      "has": [{ "type": "host", "value": "xn--299ay81a7laj9hr5am7nvsdby4b.daumzine.co.kr" }],
+      "dest": "/busan-goyang-bohoso/index.html"
+    },
+    {
+      "src": "/index.html",
+      "has": [{ "type": "host", "value": "xn--299ay81a7laj9hr5am7nvsdby4b.daumzine.co.kr" }],
+      "dest": "/busan-goyang-bohoso/index.html"
+    },
+    {
+      "src": "/robots.txt",
+      "has": [{ "type": "host", "value": "xn--939az33a7laj9hr5af5mv3iw10a.daumzine.co.kr" }],
+      "dest": "/busan-gangaji-bohoso/robots.txt"
+    },
+    {
+      "src": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "xn--939az33a7laj9hr5af5mv3iw10a.daumzine.co.kr" }],
+      "dest": "/busan-gangaji-bohoso/sitemap.xml"
+    },
+    {
+      "src": "/",
+      "has": [{ "type": "host", "value": "xn--939az33a7laj9hr5af5mv3iw10a.daumzine.co.kr" }],
+      "dest": "/busan-gangaji-bohoso/index.html"
+    },
+    {
+      "src": "/index.html",
+      "has": [{ "type": "host", "value": "xn--939az33a7laj9hr5af5mv3iw10a.daumzine.co.kr" }],
+      "dest": "/busan-gangaji-bohoso/index.html"
+    },
+    {
+      "src": "/robots.txt",
+      "has": [{ "type": "host", "value": "xn--299a782a7lc12ga110av72a.daumzine.co.kr" }],
+      "dest": "/busan-goyang-apyang/robots.txt"
+    },
+    {
+      "src": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "xn--299a782a7lc12ga110av72a.daumzine.co.kr" }],
+      "dest": "/busan-goyang-apyang/sitemap.xml"
+    },
+    {
+      "src": "/",
+      "has": [{ "type": "host", "value": "xn--299a782a7lc12ga110av72a.daumzine.co.kr" }],
+      "dest": "/busan-goyang-apyang/index.html"
+    },
+    {
+      "src": "/index.html",
+      "has": [{ "type": "host", "value": "xn--299a782a7lc12ga110av72a.daumzine.co.kr" }],
+      "dest": "/busan-goyang-apyang/index.html"
+    },
+    {
+      "src": "/robots.txt",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
       "dest": "/busan-yugigyug/robots.txt"
     },

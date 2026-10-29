@@ -638,7 +638,7 @@
   .pm-story-grid { grid-template-columns: repeat(2, 1fr); }
   .pm-contact-card { grid-template-columns: 1fr; }
   .pm-hero-grid { grid-template-columns: 1fr; gap: 28px; }
-  .pm-hero-visual .hero-photos a:first-child { min-height: 280px; }
+  .pm-hero-visual .hero-photos { height: 292px; }
   .pm-trust-grid { grid-template-columns: 1fr; }
   .quick-grid { grid-template-columns: 1fr; }
   .pm-faq-card { padding: 28px 22px 24px; }

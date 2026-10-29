@@ -2,6 +2,7 @@
   "name": "busanbohoso",
   "private": true,
   "scripts": {
-    "build": "node scripts/prepare-vercel-output.js"
+    "build": "node scripts/prepare-vercel-output.js",
+    "dev": "python scripts/dev-server.py"
   }
 }
