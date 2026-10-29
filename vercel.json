@@ -25,6 +25,26 @@
       "source": "/index.html",
       "has": [{ "type": "host", "value": "xn--l89at2a894aj7ccuad8ykls.daumzine.co.kr" }],
       "destination": "/busan-yugigyug/index.html"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
+      "destination": "/busan-yugigyug/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
+      "destination": "/busan-yugigyug/sitemap.xml"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
+      "destination": "/busan-yugigyug/index.html"
+    },
+    {
+      "source": "/index.html",
+      "has": [{ "type": "host", "value": "부산유기견센터.daumzine.co.kr" }],
+      "destination": "/busan-yugigyug/index.html"
     }
   ],
   "headers": [
